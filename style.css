@@ -1,0 +1,68 @@
+ @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #0369a1;
+    --dark-grey: #374151;
+    --light-grey: #a1a1aa;
+}
+
+body{
+    background-color: azure;
+    font-family: 'Space Mono', monospace;
+    background-image: url(images/head.jpg);
+    color: white;
+}
+.header{
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 80px;
+}
+#outp{
+    border:1px solid black;
+    height: 3vh;
+    width: 70%;
+    margin: 1rem;
+    padding: 1rem;
+    background: white;
+    color: black;
+    margin-left: 6%;
+}
+textarea{
+    width: 70%;
+    display: block;
+    height: 5vh;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 6%;
+}
+.ents{
+    margin-left: 5%;
+}
+
+.btntxt{
+    background-color:  #facc15;
+    border: none;
+    color: blue;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20%;
+    margin-left: 40%;
+}
+
+.footer
+{
+    margin-top: 4rem;
+    display: block;
+    background-color:whitesmoke;
+    padding : 2rem 0rem;
+    text-align: center;
+    color: blue;
+  
+}
+.footh{
+    color: black;
+    
+}
